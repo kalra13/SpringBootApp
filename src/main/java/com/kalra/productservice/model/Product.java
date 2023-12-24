@@ -1,18 +1,23 @@
-package com.kalra.shop.dto;
+package com.kalra.productservice.model;
 
 import java.math.BigDecimal;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
-@Builder(toBuilder = true)
+@Document(value = "product")
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductResponse
+@Builder(toBuilder = true)
+@Data
+public class Product
 {
+    @Id
     private String id;
     private String name;
     private String description;

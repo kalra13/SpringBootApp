@@ -1,13 +1,13 @@
-package com.kalra.shop.service;
+package com.kalra.productservice.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.kalra.shop.dto.ProductRequest;
-import com.kalra.shop.dto.ProductResponse;
-import com.kalra.shop.model.Product;
-import com.kalra.shop.repository.ProductRepository;
+import com.kalra.productservice.dto.ProductRequest;
+import com.kalra.productservice.dto.ProductResponse;
+import com.kalra.productservice.model.Product;
+import com.kalra.productservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

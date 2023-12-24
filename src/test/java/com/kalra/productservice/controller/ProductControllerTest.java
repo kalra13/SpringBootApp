@@ -1,4 +1,4 @@
-package com.kalra.shop.controller;
+package com.kalra.productservice.controller;
 
 import java.math.BigDecimal;
 import java.util.Optional;
@@ -18,9 +18,9 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 import org.testcontainers.shaded.com.fasterxml.jackson.databind.ObjectMapper;
 
-import com.kalra.shop.dto.ProductRequest;
-import com.kalra.shop.model.Product;
-import com.kalra.shop.repository.ProductRepository;
+import com.kalra.productservice.dto.ProductRequest;
+import com.kalra.productservice.model.Product;
+import com.kalra.productservice.repository.ProductRepository;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 

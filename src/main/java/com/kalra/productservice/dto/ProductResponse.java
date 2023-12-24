@@ -1,4 +1,4 @@
-package com.kalra.shop.dto;
+package com.kalra.productservice.dto;
 
 import java.math.BigDecimal;
 
@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 @Builder(toBuilder = true)
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductRequest
+public class ProductResponse
 {
+    private String id;
     private String name;
     private String description;
     private BigDecimal price;
 }
-

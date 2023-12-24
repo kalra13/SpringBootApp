@@ -1,4 +1,4 @@
-package com.kalra.shop;
+package com.kalra.productservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.kalra.shop.controller;
+package com.kalra.productservice.controller;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kalra.shop.dto.ProductRequest;
-import com.kalra.shop.dto.ProductResponse;
-import com.kalra.shop.service.ProductService;
+import com.kalra.productservice.dto.ProductRequest;
+import com.kalra.productservice.dto.ProductResponse;
+import com.kalra.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
